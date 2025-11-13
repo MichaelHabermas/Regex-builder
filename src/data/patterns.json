@@ -1,0 +1,115 @@
+[
+  {
+    "id": "email",
+    "name": "Email Address",
+    "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+    "description": "Validates email addresses",
+    "category": "Validation"
+  },
+  {
+    "id": "phone-us",
+    "name": "US Phone Number",
+    "pattern": "^\\+?1?[-.]?\\s?\\(?([0-9]{3})\\)?[-.]?\\s?([0-9]{3})[-.]?\\s?([0-9]{4})$",
+    "description": "US phone number format (e.g., (555) 123-4567)",
+    "category": "Validation"
+  },
+  {
+    "id": "phone-international",
+    "name": "International Phone Number",
+    "pattern": "^\\+[1-9]\\d{1,14}$",
+    "description": "E.164 international phone number format",
+    "category": "Validation"
+  },
+  {
+    "id": "url",
+    "name": "URL",
+    "pattern": "^(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$",
+    "description": "Validates URLs (http/https)",
+    "category": "Validation"
+  },
+  {
+    "id": "ipv4",
+    "name": "IPv4 Address",
+    "pattern": "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$",
+    "description": "Validates IPv4 addresses",
+    "category": "Network"
+  },
+  {
+    "id": "ipv6",
+    "name": "IPv6 Address",
+    "pattern": "^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$",
+    "description": "Validates IPv6 addresses",
+    "category": "Network"
+  },
+  {
+    "id": "date-yyyy-mm-dd",
+    "name": "Date (YYYY-MM-DD)",
+    "pattern": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
+    "description": "Date in YYYY-MM-DD format",
+    "category": "Date & Time"
+  },
+  {
+    "id": "date-mm-dd-yyyy",
+    "name": "Date (MM/DD/YYYY)",
+    "pattern": "^(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01])\\/(\\d{4})$",
+    "description": "Date in MM/DD/YYYY format",
+    "category": "Date & Time"
+  },
+  {
+    "id": "credit-card",
+    "name": "Credit Card Number",
+    "pattern": "^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3[0-9]{13}|6(?:011|5[0-9]{2})[0-9]{12})$",
+    "description": "Validates major credit card numbers",
+    "category": "Validation"
+  },
+  {
+    "id": "postal-us",
+    "name": "US Postal Code",
+    "pattern": "^\\d{5}(-\\d{4})?$",
+    "description": "US ZIP code (5 or 9 digits)",
+    "category": "Validation"
+  },
+  {
+    "id": "postal-canada",
+    "name": "Canadian Postal Code",
+    "pattern": "^[A-Za-z]\\d[A-Za-z][ -]?\\d[A-Za-z]\\d$",
+    "description": "Canadian postal code format",
+    "category": "Validation"
+  },
+  {
+    "id": "hex-color",
+    "name": "Hex Color Code",
+    "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+    "description": "Validates hex color codes (#RRGGBB or #RGB)",
+    "category": "Format"
+  },
+  {
+    "id": "username",
+    "name": "Username",
+    "pattern": "^[a-zA-Z0-9_]{3,16}$",
+    "description": "Username: 3-16 alphanumeric characters and underscores",
+    "category": "Validation"
+  },
+  {
+    "id": "password-strong",
+    "name": "Strong Password",
+    "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",
+    "description": "Strong password: 8+ chars, uppercase, lowercase, number, special char",
+    "category": "Validation"
+  },
+  {
+    "id": "time-24h",
+    "name": "24-Hour Time",
+    "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+    "description": "Time in 24-hour format (HH:MM)",
+    "category": "Date & Time"
+  },
+  {
+    "id": "time-12h",
+    "name": "12-Hour Time",
+    "pattern": "^(0?[1-9]|1[0-2]):[0-5][0-9]\\s?(AM|PM|am|pm)$",
+    "description": "Time in 12-hour format (HH:MM AM/PM)",
+    "category": "Date & Time"
+  }
+]
+
