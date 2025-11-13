@@ -139,27 +139,27 @@ npm run preview
 Regex-builder/
 ├── src/
 │   ├── components/
-│   │   ├── ui/              # Shadcn UI components
-│   │   ├── RegexEditor.tsx  # Main pattern editor
-│   │   ├── TestArea.tsx     # Test text and match display
-│   │   ├── PatternLibrary.tsx # Pattern library component
-│   │   ├── ExportModal.tsx  # Export functionality
+│   │   ├── ui/                 # Shadcn UI components
+│   │   ├── RegexEditor.tsx     # Main pattern editor
+│   │   ├── TestArea.tsx        # Test text and match display
+│   │   ├── PatternLibrary.tsx  # Pattern library component
+│   │   ├── ExportModal.tsx     # Export functionality
 │   │   ├── theme-provider.tsx
 │   │   └── mode-toggle.tsx
 │   ├── data/
-│   │   └── patterns.json    # Pre-built patterns
+│   │   └── patterns.json       # Pre-built patterns
 │   ├── hooks/
-│   │   └── useDebounce.ts   # Debounce utility
+│   │   └── useDebounce.ts      # Debounce utility
 │   ├── lib/
-│   │   ├── regex-utils.ts   # Regex helper functions
-│   │   └── utils.ts         # General utilities
+│   │   ├── regex-utils.ts      # Regex helper functions
+│   │   └── utils.ts            # General utilities
 │   ├── types/
-│   │   └── index.ts         # TypeScript type definitions
-│   ├── App.tsx              # Main application component
-│   ├── main.tsx             # Application entry point
-│   └── index.css            # Global styles
-├── docs/                     # Documentation
-├── public/                   # Static assets
+│   │   └── index.ts            # TypeScript type definitions
+│   ├── App.tsx                 # Main application component
+│   ├── main.tsx                # Application entry point
+│   └── index.css               # Global styles
+├── docs/                       # Documentation
+├── public/                     # Static assets
 └── package.json
 ```
 
